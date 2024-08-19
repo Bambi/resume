@@ -1,0 +1,290 @@
+% Clean CV/Resume Template, by Bennet B <dev@bennet.cc>
+% CC0, Public-Domain
+% 
+% Permission is hereby granted, free of charge, to any person obtaining a copy
+% of this template and associated files (the "Template"), to deal
+% in the Template without restriction, including without limitation the rights
+% to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+% copies of the Template, and to permit persons to whom the Template is
+% furnished to do so, subject to the following conditions:
+%
+% The above copyright notice and this permission notice shall be included in all
+% copies or substantial portions of the Template.
+%
+% THE TEMPLATE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+% IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+% FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+% AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+% LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+% OUT OF OR IN CONNECTION WITH THE TEMPLATE OR THE USE OR OTHER DEALINGS IN THE
+% TEMPLATE.
+%
+% based on Modern CV by Habib Semouma
+% https://www.overleaf.com/latex/templates/modern-cv-slash-resume-template/vjrqdkpjckwj
+%
+% 
+\documentclass[oneside]{article}
+
+\usepackage{wallpaper}
+\usepackage{geometry}
+\usepackage[
+    unicode=true,
+    bookmarks=true,
+    bookmarksnumbered=false,
+    bookmarksopen=true,
+    bookmarksopenlevel=1,
+    breaklinks=false,
+    pdfborder={0 0 0},
+    backref=false,
+    colorlinks=false
+    ]{hyperref}
+\usepackage{lastpage}
+\usepackage{hyphenat}
+\usepackage{hyphsubst}
+\usepackage{tabularx}
+\usepackage{moresize}
+\usepackage[document]{ragged2e}
+% \usepackage{parskip}
+
+\usepackage[scaled]{helvet}
+\usepackage{fontawesome5}
+\usepackage[defaultfam,tabular,oldstyle]{montserrat}
+\usepackage[T1]{fontenc}
+\renewcommand*\oldstylenums[1]{{\fontfamily{Montserrat-TOsF}\selectfont #1}}
+
+\usepackage{titlesec}
+\usepackage{xcolor}
+\usepackage{tikz}
+
+\setlength{\parindent}{0pt}
+\titleformat{\section}{\normalfont}{}{0pt}{}
+
+\renewcommand{\arraystretch}{1.4}
+
+\setlength\fboxrule{0pt}
+\setlength\fboxsep{12pt}
+% \setlength{\parskip}{.5\baselineskip plus 2pt}
+% \renewcommand{\baselinestretch}{1.1}
+
+\titlespacing{\section}{0pt}{1.5ex plus .1ex minus .2ex}{1pc}
+
+\newcolumntype{Y}{>{\RaggedRight\arraybackslash}X}
+
+% Change PDF Meta Info here
+\hypersetup{
+    pdftitle={${name}$ - CV - French},
+    pdfauthor={${name}$},
+    pdfsubject={CV}
+}
+
+% Paper size
+\geometry{
+    a4paper,
+    left=0pt,
+    right=0pt,
+    top=0pt,
+    bottom=0pt,
+    nohead,
+    % includefoot,
+    nomarginpar
+}
+
+% Background Color of the Sidebar Column
+\definecolor{sidebg}{cmyk}{1, 0.02, 0, 0.56}
+% Background Color of the Main Column
+\definecolor{mainbg}{cmyk}{0, 0, 0.07, 0.04}
+
+% Text Color of the Main Column
+\definecolor{maintext}{cmyk}{1, 0.02, 0, 0.8}
+% Text Color of the Sidebar Column
+\definecolor{sidetext}{cmyk}{0, 0, 0.07, 0.04}
+
+\pagecolor{mainbg}
+
+\begin{document}
+\setlength{\topskip}{0pt}\setlength{\footskip}{0pt}%
+\fcolorbox{red}{sidebg}{%
+    \begin{minipage}[t][\textheight-2\fboxsep-2\fboxrule][t]{\dimexpr0.40\textwidth-2\fboxrule-2\fboxsep\relax}
+        \color{sidetext}
+        %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+        % YOUR NAME, PRONOUNS, OCCUPATION(s), AND HEADSHOT
+        {\bfseries\scshape\HUGE ${fname}$} \\
+        {\bfseries\scshape\Huge ${lname}$}
+        \vspace{.3cm} \\
+        ${info.presentation}$
+        \vspace{.3cm} \\
+        ${info.label}$
+        \\
+        \begin{center}
+            \begin{tikzpicture}
+            \clip (0,0) circle (2cm) node[anchor=center] {\includegraphics[width=4cm]{cv/photo.png}}; 
+            \end{tikzpicture}
+        \end{center}
+        \vspace{.3cm}
+        %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+        % YOUR PERSONAL INFROMATION
+        \phantomsection{}
+        \addcontentsline{toc}{section}{Personal info}
+        \section*{\large Contact}
+        \begin{tabularx}{\textwidth}{cY}
+            \faPhone{}      & ${contact.phone}$ \\
+            \faEnvelope{}   & \href{mailto:${contact.email}$}{${contact.email}$} \\
+            \faMapMarker{}  & ${location.address}$\newline ${location.code}$\newline ${location.city}$ \\
+        \end{tabularx}
+        \vspace{.3cm} \\
+        \rule{\linewidth}{0.4pt} \\
+        %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+        % YOUR LINKS, YOU MAY ALSO ADD A PERSONAL WEBSITE OR PORTFOLIO
+        \phantomsection{}
+        \addcontentsline{toc}{section}{Links}
+        \section*{\large Liens}
+        \begin{tabular}{cl}
+        %    \faCode{}     & \href{https://example.com}{example.com}
+            \faGithub{}   & \href{${social[0].url}$}{${social[0].url}$} \\
+            % \faLinkedin{} & \href{https://www.linkedin.com/in/john-doe/}{/john-doe} \\
+            % \faXing{}     & \href{https://www.xing.com/profile/John_Doe7373990/cv}{/John\_Doe7373990} \\
+        \end{tabular}
+        \vspace{10pt} \\
+        \rule{\linewidth}{0.4pt} \\
+        %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+        % YOUR SKILLS
+        % Add/Remove as seen fit, Icons: https://packages.oth-regensburg.de/ctan/fonts/fontawesome5/doc/fontawesome5.pdf
+        \phantomsection{}
+        \addcontentsline{toc}{section}{Skills}
+        \section*{\large \faTasks\enspace Compétences}
+        \begin{tabularx}{\textwidth}{cY}
+            \faCode{}        & C, C++, Python, Bash, Nix \\
+            \faPen*{}        & Markdown \\
+            %\faFont{}        & \{MS, Libre, GSuite\} Office, Adobe Acrobat \\
+            \faCogs{}        & Linux, NixOS \\
+            \faLaptopCode{}  & Cmocka \\
+            \faToolbox{}     & Git, SVN, Jira 
+        \end{tabularx}
+        \vspace{1pt} \\
+        \rule{\linewidth}{0.4pt}
+        %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+        % GRADESCALE (if nesseary, e.g. if you apply abroad, where scales 
+        % are different. You should at least provide, what the best possible
+        % grade and what the worst possible grade is)
+        \vfill
+        % {\tiny Grade scale: (1) very good $\approx$91\%-100\%, (2) good $\approx$81\%-90\%, (3) satisfactory $\approx$66\%-80\%, (4) sufficient $\approx$50\%-65\%, (5) failed $\approx$0\%-49\%}
+    \end{minipage}
+}
+\hfill
+\fcolorbox{red}{mainbg}{%
+    \begin{minipage}[t][\dimexpr\textheight-2\fboxrule-2\fboxsep\relax][t]{\dimexpr0.6\textwidth-2\fboxrule-2\fboxsep\relax}
+        \color{maintext}
+        %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+        % WORK EXPERIENCE
+        \phantomsection{}
+        \addcontentsline{toc}{section}{Work Experience}
+        \section*{\scshape\Large \faSuitcase\enspace Expérience professionnelle \rule{\linewidth}{0.4pt}}
+%
+        $%- for job in employment.history %$
+        $%- if loop.index <= 5 %$
+        {\large \textbf{${job.employer}$}, ${job.location}$} \\ 
+        $%- if job.presentation %$
+        {${job.presentation}$} \\
+        $%- endif %$
+        % {{\fontseries{medium}\selectfont ${job.position}$}} \\
+        {\scshape\fontseries{light}\selectfont\footnotesize ${job.start}$ \textendash{} ${job.end}$} \\
+        {${job.summary}$}
+        \begin{itemize}
+            \setlength{\itemsep}{-3pt}
+            $%- for desc in job.highlights %$
+            \item ${desc}$
+            $%- endfor %$
+        \end{itemize}
+        $%- endif %$
+        $%- endfor %$
+        % \\
+        % \vfill%
+        % {\hfill\small\fontseries{extralight}\selectfont Page \thepage of \pageref{LastPage}\hfill}
+    \end{minipage}
+}%
+\newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% PAGE 2
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\fcolorbox{red}{mainbg}{%
+    \begin{minipage}[t][\dimexpr\textheight-2\fboxrule-2\fboxsep\relax][t]{\dimexpr0.6\textwidth-2\fboxrule-2\fboxsep\relax}
+        \color{maintext}
+        % \vspace{.6cm}
+        %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+        % WORK EXPERIENCE
+        \phantomsection{}
+        \addcontentsline{toc}{section}{Work Experience}
+        \section*{\scshape\Large \faSuitcase\enspace Expérience professionnelle \rule{\linewidth}{0.4pt}}
+%
+        $%- for job in employment.history %$
+        $%- if loop.index > 5 %$
+        {\large \textbf{${job.employer}$, ${job.location}$}} \\ 
+        $%- if job.presentation %$
+        {${job.presentation}$} \\
+        $%- endif %$
+        % {{\fontseries{medium}\selectfont ${job.position}$}} \\
+        {\scshape\fontseries{light}\selectfont\footnotesize ${job.start}$ \textendash{} ${job.end}$} \\
+        {${job.summary}$}
+        \begin{itemize}
+            \setlength{\itemsep}{-3pt}
+            $%- for desc in job.highlights %$
+            \item ${desc}$
+            $%- endfor %$
+        \end{itemize}
+        $%- endif %$
+        $%- endfor %$
+        % \vfill%
+        % {\hfill\small\fontseries{extralight}\selectfont Page \thepage of \pageref{LastPage}\hfill}
+    \end{minipage}
+}
+\hfill%
+\fcolorbox{red}{sidebg}{%
+    \begin{minipage}[t][\dimexpr\textheight-2\fboxrule-2\fboxsep\relax][t]{\dimexpr0.4\textwidth-2\fboxrule-2\fboxsep\relax}
+        \color{sidetext}
+        % \vspace{.5cm}
+        %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+        % YOUR NAME AND PREFERED PRONOUS AGAIN AS HEADER
+        {\bfseries\scshape\HUGE ${fname}$} \\
+        {\bfseries\scshape\Huge ${lname}$}
+        \vspace{.3cm} \\
+        %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+        % EDUCATION
+        \phantomsection
+        \addcontentsline{toc}{section}{Education}
+        \section*{\large \faGraduationCap Formation}
+        \begin{tabularx}{\textwidth}{cY}
+        $%- for edu in education.history %$
+            ${edu.end}$ & ${edu.institution}$ \newline ${edu.grade}$ ${edu.summary}$ \\
+        $%- endfor %$
+        \end{tabularx}
+        %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+        % LANGUAGES
+        \phantomsection
+        \addcontentsline{toc}{section}{Languages}
+        \section*{\large \faLanguage\enspace Langues}
+        \begin{tabular}{cl}
+            \faLanguage{} & Français (langue maternelle) \\
+            \faLanguage{} & Anglais (niveau B1)
+        \end{tabular}
+        \vspace{.3cm}
+        \\
+        \rule{\linewidth}{0.4pt}
+        \\
+        %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+        % HOBBIES
+        % Change Icons here http://mirrors.ibiblio.org/CTAN/fonts/fontawesome5/doc/fontawesome5.pdf
+        \phantomsection
+        \addcontentsline{toc}{section}{Hobbies}
+        \section*{\large Centres d'intérêts}
+        \begin{tabularx}{\textwidth}{cY}
+        $%- for hob in interests[0].keywords %$
+            \faIcon{${hob.icon}$} & ${hob.name}$ \\
+        $%- endfor %$
+        \end{tabularx}
+        \vspace{.3cm}
+        \\
+        \rule{\linewidth}{0.4pt}
+    \end{minipage}%
+}%
+\end{document}
+

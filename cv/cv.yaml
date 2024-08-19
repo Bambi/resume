@@ -1,0 +1,167 @@
+---
+name: Antoine Sgambato
+fname: Antoine
+lname: Sgambato
+meta:
+  format: FRESH@0.6.0
+  version: 0.5.0
+info:
+  presentation: Développeur réseaux/Linux embarqué
+  label: Développeur C/Linux avec plus de 20 ans d'expérience dans le domaine des
+    réseaux, passionné par le développement et constament motivé pour apprendre de
+    nouvelles technologies.
+  characterClass: Programmer
+  brief: Passionné avec plus de 20 ans d'expérience
+  image: photo.png
+contact:
+  phone: "+33 6 68 45 40 48"
+  email: asgambato@gmail.com
+location:
+  address: 105, Avenue de la division Leclerc
+  code: '92290'
+  city: Châtenay Malabry
+  country: FR
+social:
+- network: github
+  label: Github
+  user: Bambi
+  url: https://github.com/Bambi/
+employment:
+  history:
+  - employer: Extreme Networks
+    location: Massy
+    presentation: Société américaine spécialisée dans les solutions de réseaux informatiques
+      et de communication.
+    position: Développeur
+    start: 2021-09
+    end: 2024-06
+    summary: Développement du logiciel interne d'une sonde SD-WAN dans une équipe
+      internationnale EU/Inde.
+    highlights:
+    - Portage des modules et pilotes noyaux de 4.9 vers 5.10
+    - Interfacage de la sonde et des switchs ExtremeNetworks avec LLDP
+    - Étude transition vers une architecture DPDK/VPP
+    - Développement avec des méthodes agiles pour des sorties de version régulières
+    - Résolution de problèmes et amélioration des fonctionnalités
+  - employer: Infovista
+    location: Massy
+    presentation: Entreprise spécialisée dans les solutions logicielles permettant
+      d'optimiser les performances des réseaux informatiques des entreprises.
+    position: Développeur
+    start: 2015-07
+    end: 2021-09
+    summary: Sonde SW-WAN (gestion et optimisation d'un réseaux virtuel privé).
+    highlights:
+    - Synchroniation des sondes avec Chrony
+    - Intégration d'un environement Python 3.7
+    - Développement de l'architecture SD-WAN autour d'un orchestrateur central
+  - employer: Ipanema
+    location: Fontenay-aux-Roses
+    presentation: Entreprise spécialisée dans les solutions de gestion de la performance
+      des réseaux informatiques.
+    position: Développeur
+    start: 2015-07
+    end: 2007-09
+    summary: Sonde WAN-Optimisation pour la visibilité et l'optimisation des communications
+      réseaux WAN. Mise en Oeuvre de technologies de compression, d'optimisation protocolaire
+      et de qualité se service.
+    highlights:
+    - Portage de l'ensemble du boitier vers une architecture ARM/U-boot
+    - Portage d'une distribution maison vers ELINOS (build, boot)
+    - Intégration de différents éléments de la distribution tels que PAM/DHCP/SYSLOG
+  - employer: Motorola
+    location: Saint-Aubin
+    position: Développeur
+    start: 2006-12
+    end: 2007-06
+    summary: Développement d'un module Linux de filtrage pour une pile IPv4-IPv6 propriétaire.
+    highlights:
+    - Développement noyaux Linux UML 2.6.12 et 2.6.18.
+  - employer: Solsoft (éditeur logiciels)
+    location: Levallois-Perret
+    presentation: Editeur de logiciels de sécurité réseaux permettant la conception
+      et le déploiement d'architectures complexes.
+    position: Développeur
+    start: '2001'
+    end: '2005'
+    summary: Développement d'un compilateur qui génère des règles de filtrage et de
+      NAT pour différents pare-feux à partir d'un langage décrivant la politique de
+      sécurité.
+    highlights:
+    - Intégration du support des VPN, de la translation d'adresses (NAT), des clusters,
+      de la compilation incrémentale.
+    - Support du greffon Cisco IOS (filtrage, NAT, VPN IPsec, clusters HSRP) et d'un
+      SDK destiné aux partenaires.
+    - Développement multi-plateforme (Linux, Windows, Solaris) avec tests unitaires
+      de non régression.
+    - Algorithmes complexes avec de nombreuses optimisations mémoire et CPU.
+  - employer: Aérospatiale-Matra
+    location: Suresnes
+    presentation: Centre commun de recherche.
+    position: Développeur
+    start: '1998'
+    end: '2002'
+    summary: Développement d'une application basée sur le multicast IGMP permettant
+      à plusieurs personnes de travailler simultanément sur une maquette numérique.
+    highlights:
+    - Projet très innovant, plusieurs articles de recherche publiés sur le sujet.
+    - Développement C++ multi-plateforme.
+  - employer: Dorotech, Soleri-Cigel, Impulsions
+    location: Paris
+    presentation: Sociétés de services informatiques
+    position: Développeur
+    start: '1991'
+    end: '1998'
+    summary: Developpeur chez de nombreux clients grands-comptes dans un environement
+      UNIX / C / Oracle.
+    highlights:
+    - 'BNP Paris: Adaptation et mise en place d''un progiciel d''archivage de releves de comptes sur disque optique.'
+    - 'CIC Paris: trésorerie et gestion des flux intra-journaliers.'
+    - 'Alcatel Réseaux d''Entreprises (ARE): étude du trafic téléphonique.'
+    - 'Scac Delmas Vieljeux (Groupe Bolloré): optimisation du routage des commandes.'
+    - 'Office National Interprofessionnel du Lait (ONILAIT): gestion des quotas laitiers.'
+    - 'Euro-disney: Portage et optimisation d''applications info-centre.'
+    - 'IBM: développement d''une application télématique.'
+    - 'Toshiba: administration d''une base clientèle.'
+    - 'Crédit-Lyonnais: application audiotel.'
+    - 'Groupement Agricole Essonnois (GAE): développement d''un logiciel de gestion des stocks et des commandes.'
+education:
+  history:
+  - institution: Télécom SudParis
+    summary: Sécutité des systèmes et des réseaux
+    grade: Master
+    start: '2006'
+    end: '2007'
+  - institution: CNAM
+    summary: Informatique
+    grade: Ingénieur
+    start: ''
+    end: '1999'
+  - institution: Université Rennes I
+    summary: Informatique appliquée à la gestion
+    grade: Maitrise
+    start: '1987'
+    end: '1989'
+skills:
+  sets:
+  - name: Développement
+    level: expert
+    skills:
+    - C
+    - C++
+  - name: Linux
+    level: expert
+    skills:
+    - Debian, Elinos
+languages:
+- language: Français
+  fluency: courrant
+- language: Anglais
+  fluency: professionnel
+interests:
+- name: Activités plein air
+  keywords:
+  - name: Vélo
+    icon: biking
+  - name: Voile
+    icon: anchor

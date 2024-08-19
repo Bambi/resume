@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 import os
 import argparse
-import json
+import yaml
 from jinja2 import Environment, FileSystemLoader
 
 parser = argparse.ArgumentParser(description='Generates cv from json cv data')
-parser.add_argument('json')
+parser.add_argument('yaml')
 parser.add_argument('template')
 parser.add_argument('output')
 args = parser.parse_args()
@@ -23,8 +23,8 @@ environment = Environment(
 tmpl_file = os.path.basename(args.template)
 tmpl = environment.get_template(tmpl_file)
 
-with open(args.json, "r") as cv_file:
-    cv_data = json.load(cv_file)
+with open(args.yaml, "r") as cv_file:
+    cv_data = yaml.safe_load(cv_file)
     doc = tmpl.render(cv_data)
     with open(args.output, mode='w', encoding='utf-8') as cv:
         cv.write(doc)

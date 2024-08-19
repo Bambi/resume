@@ -10,7 +10,7 @@
   flake-utils.lib.eachDefaultSystem (system:
   let
     pkgs = (import nixpkgs { inherit system; });
-    pythonEnv = pkgs.python3.withPackages (ps: with ps; [ jinja2 ]);
+    pythonEnv = pkgs.python3.withPackages (ps: with ps; [ jinja2 pyyaml ]);
     buildDeps = [ pkgs.texliveFull pythonEnv ];
   in {
     devShells.default = pkgs.mkShell {
@@ -24,7 +24,7 @@
       buildPhase = ''
         mkdir $out
         patchShebangs generate
-        ./generate cv/cv.json template.tex $out/cv.tex
+        ./generate cv/cv.yaml template.tex $out/cv.tex
         XDG_CACHE_HOME="$(mktemp -d)" xelatex -output-directory=$out $out/cv.tex
       '';
       nativeBuildInputs = buildDeps;

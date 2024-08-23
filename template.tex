@@ -180,15 +180,15 @@
         \addcontentsline{toc}{section}{Work Experience}
         \section*{\scshape\Large \faSuitcase\enspace Expérience professionnelle \rule{\linewidth}{0.4pt}}
 %
-        $%- for job in employment.history %$
+        $%- for job in experiences.info %$
         $%- if loop.index <= 5 %$
-        {\large \textbf{${job.employer}$}, ${job.location}$} \\ 
+        {\large \textbf{${job.company}$}} \\ 
         $%- if job.presentation %$
         {${job.presentation}$} \\
         $%- endif %$
-        % {{\fontseries{medium}\selectfont ${job.position}$}} \\
-        {\scshape\fontseries{light}\selectfont\footnotesize ${job.start}$ \textendash{} ${job.end}$} \\
-        {${job.summary}$}
+        % {{\fontseries{medium}\selectfont ${job.role}$}} \\
+        {\scshape\fontseries{light}\selectfont\footnotesize ${job.time}$} \\
+        {${job.details}$}
         \begin{itemize}
             \setlength{\itemsep}{-3pt}
             $%- for desc in job.highlights %$
@@ -216,15 +216,15 @@
         \addcontentsline{toc}{section}{Work Experience}
         \section*{\scshape\Large \faSuitcase\enspace Expérience professionnelle \rule{\linewidth}{0.4pt}}
 %
-        $%- for job in employment.history %$
+        $%- for job in experiences.info %$
         $%- if loop.index > 5 %$
-        {\large \textbf{${job.employer}$, ${job.location}$}} \\ 
+        {\large \textbf{${job.company}$}} \\ 
         $%- if job.presentation %$
         {${job.presentation}$} \\
         $%- endif %$
-        % {{\fontseries{medium}\selectfont ${job.position}$}} \\
-        {\scshape\fontseries{light}\selectfont\footnotesize ${job.start}$ \textendash{} ${job.end}$} \\
-        {${job.summary}$}
+        % {{\fontseries{medium}\selectfont ${job.role}$}} \\
+        {\scshape\fontseries{light}\selectfont\footnotesize ${job.time}$} \\
+        {${job.details}$}
         \begin{itemize}
             \setlength{\itemsep}{-3pt}
             $%- for desc in job.highlights %$

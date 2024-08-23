@@ -126,22 +126,17 @@ employment:
     - 'Crédit-Lyonnais: application audiotel.'
     - 'Groupement Agricole Essonnois (GAE): développement d''un logiciel de gestion des stocks et des commandes.'
 education:
-  history:
-  - institution: Télécom SudParis
-    summary: Sécutité des systèmes et des réseaux
-    grade: Master
-    start: '2006'
-    end: '2007'
-  - institution: CNAM
-    summary: Informatique
-    grade: Ingénieur
-    start: ''
-    end: '1999'
-  - institution: Université Rennes I
-    summary: Informatique appliquée à la gestion
-    grade: Maitrise
-    start: '1987'
-    end: '1989'
+  title: Formation
+  info:
+  - university: Télécom SudParis
+    degree: Master sécutité des systèmes et des réseaux
+    time: '2007'
+  - university: CNAM
+    degree: Ingénieur informatique
+    time: '1999'
+  - university: Université Rennes I
+    degree: Maitrise d'informatique appliquée à la gestion
+    time: '1989'
 skills:
   sets:
   - name: Développement

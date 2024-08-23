@@ -253,8 +253,8 @@
         \addcontentsline{toc}{section}{Education}
         \section*{\large \faGraduationCap Formation}
         \begin{tabularx}{\textwidth}{cY}
-        $%- for edu in education.history %$
-            ${edu.end}$ & ${edu.institution}$ \newline ${edu.grade}$ ${edu.summary}$ \\
+        $%- for edu in education.info %$
+            ${edu.time}$ & ${edu.university}$ \newline ${edu.degree}$ \\
         $%- endfor %$
         \end{tabularx}
         %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

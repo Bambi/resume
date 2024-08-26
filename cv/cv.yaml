@@ -18,6 +18,13 @@ sidebar:
       level: langue maternelle
     - idiom: Anglais
       level: niveau B1
+  interests:
+    title: Centres d'intérêts
+    info:
+    - item: Vélo
+      icon: biking
+    - item: Voile
+      icon: anchor
 careerprofile:
   title: Développeur réseaux/Linux embarqué
   summary: Développeur C/Linux avec plus de 20 ans d'expérience dans le domaine des
@@ -122,20 +129,32 @@ education:
     degree: Maitrise d'informatique appliquée à la gestion
     time: '1989'
 skills:
+  title: Compétences
   sets:
-  - name: Développement
-    level: expert
-    skills:
-    - C
-    - C++
+  - skills: C, C++, Python, Bash, Nix
+    icon: code
+  - skills: Markdown
+    icon: pen
+  - skills: Linux, NixOS
+    icon: cogs
+  - skills: Cmocka
+    icon: laptop
+  - skills: Git, Svn, Jira
+    icon: toolbox
+  toolset:
+  - name: C
+    level: 98%
+  - name: Python
+    level: 70%
+  - name: Bash
+    level: 85%
+  - name: C++
+    level: 35%
   - name: Linux
-    level: expert
-    skills:
-    - Debian, Elinos
-interests:
-- name: Activités plein air
-  keywords:
-  - name: Vélo
-    icon: biking
-  - name: Voile
-    icon: anchor
+    level: 90%
+  - name: NixOS
+    level: 60%
+  - name: Git
+    level: 80%
+  - name: Jira
+    level: 40%

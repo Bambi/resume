@@ -153,12 +153,9 @@
         \addcontentsline{toc}{section}{Skills}
         \section*{\large \faTasks\enspace Compétences}
         \begin{tabularx}{\textwidth}{cY}
-            \faCode{}        & C, C++, Python, Bash, Nix \\
-            \faPen*{}        & Markdown \\
-            %\faFont{}        & \{MS, Libre, GSuite\} Office, Adobe Acrobat \\
-            \faCogs{}        & Linux, NixOS \\
-            \faLaptopCode{}  & Cmocka \\
-            \faToolbox{}     & Git, SVN, Jira 
+        $%- for skill in skills.sets %$
+            \faIcon{${skill.icon}$} & ${skill.skills}$ \\
+        $%- endfor %$
         \end{tabularx}
         \vspace{1pt} \\
         \rule{\linewidth}{0.4pt}
@@ -275,10 +272,10 @@
         % Change Icons here http://mirrors.ibiblio.org/CTAN/fonts/fontawesome5/doc/fontawesome5.pdf
         \phantomsection
         \addcontentsline{toc}{section}{Hobbies}
-        \section*{\large Centres d'intérêts}
+        \section*{\large ${sidebar.interests.title}$}
         \begin{tabularx}{\textwidth}{cY}
-        $%- for hob in interests[0].keywords %$
-            \faIcon{${hob.icon}$} & ${hob.name}$ \\
+        $%- for hob in sidebar.interests.info %$
+            \faIcon{${hob.icon}$} & ${hob.item}$ \\
         $%- endfor %$
         \end{tabularx}
         \vspace{.3cm}

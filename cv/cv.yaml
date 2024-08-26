@@ -1,31 +1,28 @@
 ---
-name: Antoine Sgambato
-fname: Antoine
-lname: Sgambato
-meta:
-  format: FRESH@0.6.0
-  version: 0.5.0
-info:
-  presentation: Développeur réseaux/Linux embarqué
-  label: Développeur C/Linux avec plus de 20 ans d'expérience dans le domaine des
-    réseaux, passionné par le développement et constament motivé pour apprendre de
-    nouvelles technologies.
-  characterClass: Programmer
-  brief: Passionné avec plus de 20 ans d'expérience
-  image: photo.png
-contact:
+sidebar:
+  name: Antoine Sgambato
+  fname: Antoine
+  lname: Sgambato
   phone: "+33 6 68 45 40 48"
   email: asgambato@gmail.com
-location:
   address: 105, Avenue de la division Leclerc
   code: '92290'
   city: Châtenay Malabry
   country: FR
-social:
-- network: github
-  label: Github
-  user: Bambi
-  url: https://github.com/Bambi/
+  github: Bambi
+  linkedin: a-sgambato
+  languages:
+    title: Langues
+    info:
+    - idiom: Français
+      level: langue maternelle
+    - idiom: Anglais
+      level: niveau B1
+careerprofile:
+  title: Développeur réseaux/Linux embarqué
+  summary: Développeur C/Linux avec plus de 20 ans d'expérience dans le domaine des
+    réseaux, passionné par le développement et constament motivé pour apprendre de
+    nouvelles technologies.
 experiences:
   title: Experiences professionelle
   info:
@@ -135,11 +132,6 @@ skills:
     level: expert
     skills:
     - Debian, Elinos
-languages:
-- language: Français
-  fluency: courrant
-- language: Anglais
-  fluency: professionnel
 interests:
 - name: Activités plein air
   keywords:

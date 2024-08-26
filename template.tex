@@ -72,8 +72,8 @@
 
 % Change PDF Meta Info here
 \hypersetup{
-    pdftitle={${name}$ - CV - French},
-    pdfauthor={${name}$},
+    pdftitle={${sidebar.name}$ - CV - French},
+    pdfauthor={${sidebar.name}$},
     pdfsubject={CV}
 }
 
@@ -108,12 +108,12 @@
         \color{sidetext}
         %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
         % YOUR NAME, PRONOUNS, OCCUPATION(s), AND HEADSHOT
-        {\bfseries\scshape\HUGE ${fname}$} \\
-        {\bfseries\scshape\Huge ${lname}$}
+        {\bfseries\scshape\HUGE ${sidebar.fname}$} \\
+        {\bfseries\scshape\Huge ${sidebar.lname}$}
         \vspace{.3cm} \\
-        ${info.presentation}$
+        ${careerprofile.title}$
         \vspace{.3cm} \\
-        ${info.label}$
+        ${careerprofile.summary}$
         \\
         \begin{center}
             \begin{tikzpicture}
@@ -127,9 +127,9 @@
         \addcontentsline{toc}{section}{Personal info}
         \section*{\large Contact}
         \begin{tabularx}{\textwidth}{cY}
-            \faPhone{}      & ${contact.phone}$ \\
-            \faEnvelope{}   & \href{mailto:${contact.email}$}{${contact.email}$} \\
-            \faMapMarker{}  & ${location.address}$\newline ${location.code}$\newline ${location.city}$ \\
+            \faPhone{}      & ${sidebar.phone}$ \\
+            \faEnvelope{}   & \href{mailto:${sidebar.email}$}{${sidebar.email}$} \\
+            \faMapMarker{}  & ${sidebar.address}$\newline ${sidebar.code}$\newline ${sidebar.city}$ \\
         \end{tabularx}
         \vspace{.3cm} \\
         \rule{\linewidth}{0.4pt} \\
@@ -140,8 +140,8 @@
         \section*{\large Liens}
         \begin{tabular}{cl}
         %    \faCode{}     & \href{https://example.com}{example.com}
-            \faGithub{}   & \href{${social[0].url}$}{${social[0].url}$} \\
-            % \faLinkedin{} & \href{https://www.linkedin.com/in/john-doe/}{/john-doe} \\
+            \faGithub{}   & \href{${sidebar.github}$}{${sidebar.github}$} \\
+            \faLinkedin{} & \href{https://www.linkedin.com/in/${sidebar.linkedin}$/}{/${sidebar.linkedin}$} \\
             % \faXing{}     & \href{https://www.xing.com/profile/John_Doe7373990/cv}{/John\_Doe7373990} \\
         \end{tabular}
         \vspace{10pt} \\
@@ -244,8 +244,8 @@
         % \vspace{.5cm}
         %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
         % YOUR NAME AND PREFERED PRONOUS AGAIN AS HEADER
-        {\bfseries\scshape\HUGE ${fname}$} \\
-        {\bfseries\scshape\Huge ${lname}$}
+        {\bfseries\scshape\HUGE ${sidebar.fname}$} \\
+        {\bfseries\scshape\Huge ${sidebar.lname}$}
         \vspace{.3cm} \\
         %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
         % EDUCATION
@@ -263,8 +263,8 @@
         \addcontentsline{toc}{section}{Languages}
         \section*{\large \faLanguage\enspace Langues}
         \begin{tabular}{cl}
-            \faLanguage{} & Français (langue maternelle) \\
-            \faLanguage{} & Anglais (niveau B1)
+            \faLanguage{} & ${sidebar.languages.info[0].idiom}$ (${sidebar.languages.info[0].level}$) \\
+            \faLanguage{} & ${sidebar.languages.info[1].idiom}$ (${sidebar.languages.info[1].level}$) \\
         \end{tabular}
         \vspace{.3cm}
         \\

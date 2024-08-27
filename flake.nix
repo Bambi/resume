@@ -24,7 +24,7 @@
       buildPhase = ''
         mkdir $out
         patchShebangs generate
-        ./generate cv/cv.yaml template.tex $out/cv.tex
+        ./generate _data/data.yml template.tex $out/cv.tex
         XDG_CACHE_HOME="$(mktemp -d)" xelatex -output-directory=$out $out/cv.tex
       '';
       nativeBuildInputs = buildDeps;

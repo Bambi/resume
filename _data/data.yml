@@ -1,268 +1,161 @@
-#
-# Be aware that even a small syntax error here can lead to failures in output.
-#
-
+---
 sidebar:
-    position: right # position of the sidebar : left or right
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
-
-    # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
-
-    # Sidebar links
-    email: example@email.com
-    phone: 012 345 6789
-    timezone: America/Cancun # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
-    citizenship:
-    website: https://example.com/ # Include the full website URL, including "http://" or "https://".
-    linkedin: alandoe
-    xing: alandoe
-    github: jekyll
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter: '@jekyllrb'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
-    mastodon:  # Please include your full Mastodon link here.
-    hackerrank: # Please provide your HackerRank username.
-    leetcode: # Please provide your LeetCode username.
-    pdf: # Add a PDF link here if you want to include a PDF custom version in your resume.
-
-    languages:
-      title: Languages
-      info:
-        - idiom: English
-          level: Native
-
-        - idiom: French
-          level: Professional
-
-        - idiom: Spanish
-          level: Professional
-
-    interests:
-      title: Interests
-      info:
-        - item: Climbing
-          link:
-
-        - item: Snowboarding
-          link:
-
-        - item: Cooking
-          link:
-
-career-profile:
-    title: Career Profile
-    summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
-education:
-    title: Education
+  name: Antoine Sgambato
+  fname: Antoine
+  lname: Sgambato
+  phone: "+33 6 68 45 40 48"
+  email: asgambato@gmail.com
+  address: 105, Avenue de la division Leclerc
+  code: '92290'
+  city: Châtenay Malabry
+  country: FR
+  avatar: photo.png
+  github: Bambi
+  linkedin: a-sgambato
+  languages:
+    title: Langues
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-
+    - idiom: Français
+      level: langue maternelle
+    - idiom: Anglais
+      level: niveau B1
+  interests:
+    title: Centres d'intérêts
+    info:
+    - item: Vélo
+      icon: biking
+    - item: Voile
+      icon: anchor
+careerprofile:
+  title: Développeur réseaux/Linux embarqué
+  summary: Développeur C/Linux avec plus de 20 ans d'expérience dans le domaine des
+    réseaux, passionné par le développement et constament motivé pour apprendre de
+    nouvelles technologies.
 experiences:
-    title: Experiences
-    info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-
-certifications:
-      title: Certifications
-      list:
-        - name: CV Builder
-          start: 2020
-          end: 2021
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.google.com
-          credentialname: Google
-          details: |
-            Details about cert. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
-
-            Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-            fringilla vel. Ut euismod, sem sed vulputate venenatis,
-            justo diam viverra velit, sed rhoncus leo leo eu justo.
-            Suspendisse placerat risus ante, sed porta nisi blandit at.
-        - name: Git learning
-          start: 2019
-          end:
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.github.com
-          credentialname: Github
-          details: |
-            Older certification. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
-
-projects:
-    title: Projects
-    intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-oss:
-    title: OSS Contributions
-    intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
-
+  title: Experiences professionelle
+  info:
+  - company: Extreme Networks, Massy
+    presentation: Société américaine spécialisée dans les solutions de réseaux informatiques
+      et de communication.
+    position: Ingénieur développement
+    time: 2021-09 - 2024-06
+    details: Développement du logiciel interne d'une sonde SD-WAN dans une équipe
+      internationnale EU/Inde.
+    highlights:
+    - Portage des modules et pilotes noyaux de 4.9 vers 5.10
+    - Interfacage de la sonde et des switchs ExtremeNetworks avec LLDP
+    - Étude transition vers une architecture DPDK/VPP
+    - Développement avec des méthodes agiles pour des sorties de version régulières
+    - Résolution de problèmes et amélioration des fonctionnalités
+  - company: Infovista, Massy
+    presentation: Entreprise spécialisée dans les solutions logicielles permettant
+      d'optimiser les performances des réseaux informatiques des entreprises.
+    position: Ingénieur développement
+    time: 2015-07 - 2021-09
+    details: Sonde SW-WAN (gestion et optimisation d'un réseaux virtuel privé).
+    highlights:
+    - Synchroniation des sondes avec Chrony
+    - Intégration d'un environement Python 3.7
+    - Développement de l'architecture SD-WAN autour d'un orchestrateur central
+  - company: Ipanema, Fontenay-aux-Roses
+    presentation: Entreprise spécialisée dans les solutions de gestion de la performance
+      des réseaux informatiques.
+    position: Ingénieur développement
+    time: 2015-07 - 2007-09
+    details: Sonde WAN-Optimisation pour la visibilité et l'optimisation des communications
+      réseaux WAN. Mise en Oeuvre de technologies de compression, d'optimisation protocolaire
+      et de qualité se service.
+    highlights:
+    - Portage de l'ensemble du boitier vers une architecture ARM/U-boot
+    - Portage d'une distribution maison vers ELINOS (build, boot)
+    - Intégration de différents éléments de la distribution tels que PAM/DHCP/SYSLOG
+  - company: Motorola, Saint-Aubin
+    position: Développeur
+    time: 2006-12 - 2007-06
+    details: Développement d'un module Linux de filtrage pour une pile IPv4-IPv6 propriétaire.
+    highlights:
+    - Développement noyaux Linux UML 2.6.12 et 2.6.18.
+  - company: Solsoft (éditeur logiciels), Levallois-Perret
+    presentation: Editeur de logiciels de sécurité réseaux permettant la conception
+      et le déploiement d'architectures complexes.
+    position: Ingénieur développement
+    time: 2001 - 2005
+    details: Développement d'un compilateur qui génère des règles de filtrage et de
+      NAT pour différents pare-feux à partir d'un langage décrivant la politique de
+      sécurité.
+    highlights:
+    - Intégration du support des VPN, de la translation d'adresses (NAT), des clusters,
+      de la compilation incrémentale.
+    - Support du greffon Cisco IOS (filtrage, NAT, VPN IPsec, clusters HSRP) et d'un
+      SDK destiné aux partenaires.
+    - Développement multi-plateforme (Linux, Windows, Solaris) avec tests unitaires
+      de non régression.
+    - Algorithmes complexes avec de nombreuses optimisations mémoire et CPU.
+  - company: Aérospatiale-Matra, Suresnes
+    presentation: Centre commun de recherche.
+    position: Développeur
+    time: 1998 - 2002
+    details: Développement d'une application basée sur le multicast IGMP permettant
+      à plusieurs personnes de travailler simultanément sur une maquette numérique.
+    highlights:
+    - Projet très innovant, plusieurs articles de recherche publiés sur le sujet.
+    - Développement C++ multi-plateforme.
+  - company: Dorotech, Soleri-Cigel, Impulsions, Paris
+    presentation: Sociétés de services informatiques
+    position: Développeur
+    time: 1991 - 1998
+    details: Developpeur chez de nombreux clients grands-comptes dans un environement
+      UNIX / C / Oracle.
+    highlights:
+    - 'BNP Paris: Adaptation et mise en place d''un progiciel d''archivage de releves de comptes sur disque optique.'
+    - 'CIC Paris: trésorerie et gestion des flux intra-journaliers.'
+    - 'Alcatel Réseaux d''Entreprises (ARE): étude du trafic téléphonique.'
+    - 'Scac Delmas Vieljeux (Groupe Bolloré): optimisation du routage des commandes.'
+    - 'Office National Interprofessionnel du Lait (ONILAIT): gestion des quotas laitiers.'
+    - 'Euro-disney: Portage et optimisation d''applications info-centre.'
+    - 'IBM: développement d''une application télématique.'
+    - 'Toshiba: administration d''une base clientèle.'
+    - 'Crédit-Lyonnais: application audiotel.'
+    - 'Groupement Agricole Essonnois (GAE): développement d''un logiciel de gestion des stocks et des commandes.'
+education:
+  title: Formation
+  info:
+  - university: Télécom SudParis
+    degree: Master sécutité des systèmes et des réseaux
+    time: '2007'
+  - university: CNAM
+    degree: Ingénieur informatique
+    time: '1999'
+  - university: Université Rennes I
+    degree: Maitrise d'informatique appliquée à la gestion
+    time: '1989'
 skills:
-    title: Skills &amp; Proficiency
-
-    toolset:
-      - name: Python & Django
-        level: 98%
-
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
-
-footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+  title: Compétences
+  sets:
+  - skills: C, C++, Python, Bash, Nix
+    icon: code
+  - skills: Markdown
+    icon: pen
+  - skills: Linux, NixOS
+    icon: cogs
+  - skills: Cmocka
+    icon: laptop
+  - skills: Git, Svn, Jira
+    icon: toolbox
+  toolset:
+  - name: C
+    level: 98%
+  - name: Python
+    level: 70%
+  - name: Bash
+    level: 85%
+  - name: C++
+    level: 35%
+  - name: Linux
+    level: 90%
+  - name: NixOS
+    level: 60%
+  - name: Git
+    level: 80%
+  - name: Jira
+    level: 40%

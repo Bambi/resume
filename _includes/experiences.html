@@ -29,6 +29,10 @@
     </div><!--//details-->
     {% endif %}
 
+    {% for highlight in experiences.highlights %}
+    <h3>&bull; {{ highlight }}</h3>
+    {% endfor %}
+
   </div><!--//item-->
   {% endfor %}
 

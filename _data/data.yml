@@ -26,18 +26,18 @@ sidebar:
       icon: biking
     - item: Voile
       icon: anchor
-careerprofile:
+career-profile:
   title: Développeur réseaux/Linux embarqué
   summary: Développeur C/Linux avec plus de 20 ans d'expérience dans le domaine des
     réseaux, passionné par le développement et constament motivé pour apprendre de
     nouvelles technologies.
 experiences:
-  title: Experiences professionelle
+  title: Experiences professionnelles
   info:
   - company: Extreme Networks, Massy
     presentation: Société américaine spécialisée dans les solutions de réseaux informatiques
       et de communication.
-    position: Ingénieur développement
+    role: Ingénieur développement
     time: 2021-09 - 2024-06
     details: Développement du logiciel interne d'une sonde SD-WAN dans une équipe
       internationnale EU/Inde.
@@ -50,7 +50,7 @@ experiences:
   - company: Infovista, Massy
     presentation: Entreprise spécialisée dans les solutions logicielles permettant
       d'optimiser les performances des réseaux informatiques des entreprises.
-    position: Ingénieur développement
+    role: Ingénieur développement
     time: 2015-07 - 2021-09
     details: Sonde SW-WAN (gestion et optimisation d'un réseaux virtuel privé).
     highlights:
@@ -60,7 +60,7 @@ experiences:
   - company: Ipanema, Fontenay-aux-Roses
     presentation: Entreprise spécialisée dans les solutions de gestion de la performance
       des réseaux informatiques.
-    position: Ingénieur développement
+    role: Ingénieur développement
     time: 2015-07 - 2007-09
     details: Sonde WAN-Optimisation pour la visibilité et l'optimisation des communications
       réseaux WAN. Mise en Oeuvre de technologies de compression, d'optimisation protocolaire
@@ -70,7 +70,7 @@ experiences:
     - Portage d'une distribution maison vers ELINOS (build, boot)
     - Intégration de différents éléments de la distribution tels que PAM/DHCP/SYSLOG
   - company: Motorola, Saint-Aubin
-    position: Développeur
+    role: Développeur
     time: 2006-12 - 2007-06
     details: Développement d'un module Linux de filtrage pour une pile IPv4-IPv6 propriétaire.
     highlights:
@@ -78,7 +78,7 @@ experiences:
   - company: Solsoft (éditeur logiciels), Levallois-Perret
     presentation: Editeur de logiciels de sécurité réseaux permettant la conception
       et le déploiement d'architectures complexes.
-    position: Ingénieur développement
+    role: Ingénieur développement
     time: 2001 - 2005
     details: Développement d'un compilateur qui génère des règles de filtrage et de
       NAT pour différents pare-feux à partir d'un langage décrivant la politique de
@@ -93,7 +93,7 @@ experiences:
     - Algorithmes complexes avec de nombreuses optimisations mémoire et CPU.
   - company: Aérospatiale-Matra, Suresnes
     presentation: Centre commun de recherche.
-    position: Développeur
+    role: Développeur
     time: 1998 - 2002
     details: Développement d'une application basée sur le multicast IGMP permettant
       à plusieurs personnes de travailler simultanément sur une maquette numérique.
@@ -102,7 +102,7 @@ experiences:
     - Développement C++ multi-plateforme.
   - company: Dorotech, Soleri-Cigel, Impulsions, Paris
     presentation: Sociétés de services informatiques
-    position: Développeur
+    role: Développeur
     time: 1991 - 1998
     details: Developpeur chez de nombreux clients grands-comptes dans un environement
       UNIX / C / Oracle.

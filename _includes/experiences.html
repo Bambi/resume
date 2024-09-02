@@ -27,9 +27,11 @@
     <div class="details">
       {{ experience.details | markdownify }}
 
+      <ul>
       {% for highlight in experience.highlights %}
-      <h3>&bull; {{ highlight }}</h3>
+      <li> {{ highlight }}</li>
       {% endfor %}
+      </ul>
     </div><!--//details-->
     {% endif %}
 

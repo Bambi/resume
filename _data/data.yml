@@ -29,7 +29,7 @@ sidebar:
 career-profile:
   title: Développeur réseaux/Linux embarqué
   summary: Développeur C/Linux avec plus de 20 ans d'expérience dans le domaine des
-    réseaux, passionné par le développement et constament motivé pour apprendre de
+    réseaux, passionné par le développement et constamment motivé pour apprendre de
     nouvelles technologies.
 experiences:
   title: Experiences professionnelles
@@ -40,7 +40,7 @@ experiences:
     role: Ingénieur développement
     time: 2021-09 - 2024-06
     details: Développement du logiciel interne d'une sonde SD-WAN dans une équipe
-      internationnale EU/Inde.
+      internationnale Europe/US/Inde.
     highlights:
     - Portage des modules et pilotes noyaux de 4.9 vers 5.10
     - Interfacage de la sonde et des switchs ExtremeNetworks avec LLDP

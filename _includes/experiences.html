@@ -26,12 +26,12 @@
     {% if experience.details %}
     <div class="details">
       {{ experience.details | markdownify }}
+
+      {% for highlight in experience.highlights %}
+      <h3>&bull; {{ highlight }}</h3>
+      {% endfor %}
     </div><!--//details-->
     {% endif %}
-
-    {% for highlight in experience.highlights %}
-    <h3>&bull; {{ highlight }}</h3>
-    {% endfor %}
 
   </div><!--//item-->
   {% endfor %}

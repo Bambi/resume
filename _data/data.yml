@@ -26,6 +26,7 @@ sidebar:
       icon: biking
     - item: Voile
       icon: anchor
+  pdf: https://github.com/Bambi/resume/blob/main/assets/cv/cv.pdf
 career-profile:
   title: Développeur réseaux/Linux embarqué
   summary: Développeur C/Linux avec plus de 20 ans d'expérience dans le domaine des

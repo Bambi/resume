@@ -33,18 +33,18 @@ career-profile:
     réseaux, passionné par le développement et constamment motivé pour apprendre de
     nouvelles technologies.
 experiences:
-  title: Experiences professionnelles
+  title: Expériences professionnelles
   info:
   - company: Extreme Networks, Massy
     presentation: Société américaine spécialisée dans les solutions de réseaux informatiques
       et de communication.
     role: Ingénieur développement
-    time: 2021-09 - 2024-06
+    time: 09/2021 - 06/2024
     details: Développement du logiciel interne d'une sonde SD-WAN dans une équipe
-      internationnale Europe/US/Inde.
+      internationale Europe/US/Inde.
     highlights:
     - Portage des modules et pilotes noyaux de 4.9 vers 5.10
-    - Interfacage de la sonde et des switchs ExtremeNetworks avec LLDP
+    - Interfaçage de la sonde et des switchs ExtremeNetworks avec LLDP
     - Étude transition vers une architecture DPDK/VPP
     - Développement avec des méthodes agiles pour des sorties de version régulières
     - Résolution de problèmes et amélioration des fonctionnalités
@@ -52,17 +52,17 @@ experiences:
     presentation: Entreprise spécialisée dans les solutions logicielles permettant
       d'optimiser les performances des réseaux informatiques des entreprises.
     role: Ingénieur développement
-    time: 2015-07 - 2021-09
-    details: Sonde SD-WAN (gestion et optimisation d'un réseaux virtuel privé).
+    time: 07/2015 - 09/2021
+    details: Sonde SD-WAN (gestion et optimisation d'un réseau virtuel privé).
     highlights:
-    - Synchroniation des sondes avec Chrony
-    - Intégration d'un environement Python 3.7
+    - Synchronisation des sondes avec Chrony
+    - Intégration d'un environnement Python 3.7
     - Développement de l'architecture SD-WAN autour d'un orchestrateur central
   - company: Ipanema, Fontenay-aux-Roses
     presentation: Entreprise spécialisée dans les solutions de gestion de la performance
       des réseaux informatiques.
     role: Ingénieur développement
-    time: 2007-09 - 2015-07
+    time: 09/2007 - 07/2015
     details: Sonde WANOP pour la visibilité et l'optimisation des communications
       réseaux WAN. Mise en œuvre de technologies de compression, d'optimisation protocolaire
       et de qualité de service.
@@ -72,7 +72,7 @@ experiences:
     - Intégration de différents éléments de la distribution tels que PAM/DHCP/SYSLOG
   - company: Motorola, Saint-Aubin
     role: Développeur
-    time: 2006-12 - 2007-06
+    time: 12/2006 - 06/2007
     details: Développement d'un module Linux de filtrage pour une pile IPv4-IPv6 propriétaire.
     highlights:
     - Développement noyaux Linux UML 2.6.12 et 2.6.18.
@@ -89,8 +89,8 @@ experiences:
       de la compilation incrémentale.
     - Support du greffon Cisco IOS (filtrage, NAT, VPN IPsec, clusters HSRP) et d'un
       SDK destiné aux partenaires.
-    - Développement multi-plateforme (Linux, Windows, Solaris) avec tests unitaires
-      et de non régression.
+    - Développement multiplateforme (Linux, Windows, Solaris) avec tests unitaires
+      et de non-régression.
     - Algorithmes complexes avec de nombreuses optimisations mémoire et CPU.
   - company: Aérospatiale-Matra, Suresnes
     presentation: Centre commun de recherche.
@@ -105,11 +105,11 @@ experiences:
     presentation: Sociétés de services informatiques
     role: Développeur
     time: 1991 - 1998
-    details: Developpeur chez de nombreux clients grands-comptes dans un environement
+    details: Développeur chez de nombreux clients grands comptes dans un environnement
       UNIX / C / Oracle.
     highlights:
     - 'BNP Paris: Adaptation et mise en place d''un progiciel d''archivage de relevés de comptes sur disque optique.'
-    - 'CIC Paris: trésorerie et gestion des flux intra-journaliers.'
+    - 'CIC Paris: trésorerie et gestion des flux infra-journaliers.'
     - 'Alcatel Réseaux d''Entreprises (ARE): étude du trafic téléphonique.'
     - 'Scac Delmas Vieljeux (Groupe Bolloré): optimisation du routage des commandes.'
     - 'Office National Interprofessionnel du Lait (ONILAIT): gestion des quotas laitiers.'
@@ -122,7 +122,7 @@ education:
   title: Formation
   info:
   - university: Télécom SudParis
-    degree: Master sécutité des systèmes et des réseaux
+    degree: Master sécurité des systèmes et des réseaux
     time: '2007'
   - university: CNAM
     degree: Ingénieur informatique

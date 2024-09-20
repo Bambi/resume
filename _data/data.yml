@@ -3,7 +3,7 @@ sidebar:
   name: Antoine Sgambato
   fname: Antoine
   lname: Sgambato
-  phone: "+33 6 68 45 40 48"
+  phone: "+33 (0)6 68 45 40 48"
   email: asgambato@gmail.com
   address: 105, Avenue de la division Leclerc
   code: '92290'
@@ -53,7 +53,7 @@ experiences:
       d'optimiser les performances des réseaux informatiques des entreprises.
     role: Ingénieur développement
     time: 2015-07 - 2021-09
-    details: Sonde SW-WAN (gestion et optimisation d'un réseaux virtuel privé).
+    details: Sonde SD-WAN (gestion et optimisation d'un réseaux virtuel privé).
     highlights:
     - Synchroniation des sondes avec Chrony
     - Intégration d'un environement Python 3.7
@@ -62,12 +62,12 @@ experiences:
     presentation: Entreprise spécialisée dans les solutions de gestion de la performance
       des réseaux informatiques.
     role: Ingénieur développement
-    time: 2015-07 - 2007-09
-    details: Sonde WAN-Optimisation pour la visibilité et l'optimisation des communications
-      réseaux WAN. Mise en Oeuvre de technologies de compression, d'optimisation protocolaire
-      et de qualité se service.
+    time: 2007-09 - 2015-07
+    details: Sonde WANOP pour la visibilité et l'optimisation des communications
+      réseaux WAN. Mise en œuvre de technologies de compression, d'optimisation protocolaire
+      et de qualité de service.
     highlights:
-    - Portage de l'ensemble du boitier vers une architecture ARM/U-boot
+    - Portage vers un boitier basé sur une architecture MIPS/U-boot
     - Portage d'une distribution maison vers ELINOS (build, boot)
     - Intégration de différents éléments de la distribution tels que PAM/DHCP/SYSLOG
   - company: Motorola, Saint-Aubin
@@ -90,7 +90,7 @@ experiences:
     - Support du greffon Cisco IOS (filtrage, NAT, VPN IPsec, clusters HSRP) et d'un
       SDK destiné aux partenaires.
     - Développement multi-plateforme (Linux, Windows, Solaris) avec tests unitaires
-      de non régression.
+      et de non régression.
     - Algorithmes complexes avec de nombreuses optimisations mémoire et CPU.
   - company: Aérospatiale-Matra, Suresnes
     presentation: Centre commun de recherche.
@@ -108,7 +108,7 @@ experiences:
     details: Developpeur chez de nombreux clients grands-comptes dans un environement
       UNIX / C / Oracle.
     highlights:
-    - 'BNP Paris: Adaptation et mise en place d''un progiciel d''archivage de releves de comptes sur disque optique.'
+    - 'BNP Paris: Adaptation et mise en place d''un progiciel d''archivage de relevés de comptes sur disque optique.'
     - 'CIC Paris: trésorerie et gestion des flux intra-journaliers.'
     - 'Alcatel Réseaux d''Entreprises (ARE): étude du trafic téléphonique.'
     - 'Scac Delmas Vieljeux (Groupe Bolloré): optimisation du routage des commandes.'
@@ -154,7 +154,7 @@ skills:
     level: 35%
   - name: Linux
     level: 90%
-  - name: NixOS
+  - name: Nix/NixOS
     level: 60%
   - name: Git
     level: 80%

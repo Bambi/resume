@@ -44,7 +44,7 @@ experiences:
       internationale Europe/US/Inde.
     highlights:
     - Portage des modules et pilotes noyaux de 4.9 vers 5.10
-    - Interfaçage de la sonde et des switchs ExtremeNetworks avec LLDP
+    - Interfaçage de la sonde et des commutateurs ExtremeNetworks avec LLDP
     - Étude transition vers une architecture DPDK/VPP
     - Développement avec des méthodes agiles pour des sorties de version régulières
     - Résolution de problèmes et amélioration des fonctionnalités

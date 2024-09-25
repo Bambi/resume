@@ -22,9 +22,9 @@ sidebar:
   interests:
     title: Interests
     info:
-    - item: Vélo
+    - item: Biking
       icon: biking
-    - item: Voile
+    - item: Sailing
       icon: anchor
   pdf: https://raw.githubusercontent.com/Bambi/resume/refs/heads/main/assets/cv/cv.pdf
 career-profile:
@@ -73,20 +73,20 @@ experiences:
     time: 2006-12 - 2007-06
     details: Development of a Linux filtering module for a proprietary IPv4-IPv6 stack
     highlights:
-    - Development done on Linux UML 2.6.12 and 2.6.18 kernels.
+    - Development done on Linux UML 2.6.12 and 2.6.18 kernels
   - company: Solsoft (software publisher), Levallois-Perret
     presentation: Editeur de logiciels de sécurité réseaux permettant la conception
-      et le déploiement d'architectures complexes.
+      et le déploiement d'architectures complexes
     role: Software engineer
     time: 2001 - 2005
     details: Development of a compiler that generates filtering and NAT rules for different
       firewalls from a language describing the security policy
     highlights:
-    - Integration of VPN support, address translation (NAT), clusters, incremental compilation.
+    - Integration of VPN support, address translation (NAT), clusters, incremental compilation
     - Development of the Cisco IOS plugin (filtering, NAT, IPsec VPN, HSRP clusters)
-      and an SDK for partners.
-    - Multi-platform development (Linux, Windows, Solaris) with unit and non-regression tests.
-    - Complex algorithms with numerous memory and CPU optimizations.
+      and an SDK for partners
+    - Multi-platform development (Linux, Windows, Solaris) with unit and non-regression tests
+    - Complex algorithms with numerous memory and CPU optimizations
   - company: Aérospatiale-Matra, Suresnes
     presentation: Research center.
     role: Developer
@@ -102,12 +102,12 @@ experiences:
     time: 1991 - 1998
     details: Developer for many major clients in a UNIX/C/Oracle environment
     highlights:
-    - BNP Paris: Adaptation and implementation of a software package for archiving account statements on optical disk
-    - CIC Paris: treasury and management of intra-day flows
+    - 'BNP Paris: Adaptation and implementation of a software package for archiving account statements on optical disk'
+    - 'CIC Paris: treasury and management of intra-day flows'
     - 'Alcatel Réseaux d''Entreprises (ARE): study of telephone traffic'
-    - Scac Delmas Vieljeux (Bolloré Group): order routing optimization
-    - 'Office National Interprofessionnel du Lait (ONILAIT): management of milk quotas.'
-    - 'Euro-disney: Portage and optimization of various business applications.'
+    - 'Scac Delmas Vieljeux (Bolloré Group): order routing optimization'
+    - 'Office National Interprofessionnel du Lait (ONILAIT): management of milk quotas'
+    - 'Euro-disney: Portage and optimization of various business applications'
     - 'IBM: development of a telematics application'
     - 'Toshiba: administration of a customer database'
     - 'Crédit-Lyonnais: audiotel application'
@@ -145,7 +145,7 @@ skills:
   - name: Bash
     level: 85%
   - name: C++
-    level: 35%
+    level: 60%
   - name: Linux
     level: 90%
   - name: Nix/NixOS

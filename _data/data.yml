@@ -75,7 +75,7 @@ experiences:
     time: 12/2006 - 06/2007
     details: Développement d'un module Linux de filtrage pour une pile IPv4-IPv6 propriétaire.
     highlights:
-    - Développement noyaux Linux UML 2.6.12 et 2.6.18.
+    - Développement noyaux Linux UML 2.6.12 et 2.6.18
   - company: Solsoft (éditeur logiciels), Levallois-Perret
     presentation: Editeur de logiciels de sécurité réseaux permettant la conception
       et le déploiement d'architectures complexes.
@@ -86,12 +86,12 @@ experiences:
       sécurité.
     highlights:
     - Intégration du support des VPN, de la translation d'adresses (NAT), des clusters,
-      de la compilation incrémentale.
+      de la compilation incrémentale
     - Support du greffon Cisco IOS (filtrage, NAT, VPN IPsec, clusters HSRP) et d'un
-      SDK destiné aux partenaires.
+      SDK destiné aux partenaires
     - Développement multiplateforme (Linux, Windows, Solaris) avec tests unitaires
-      et de non-régression.
-    - Algorithmes complexes avec de nombreuses optimisations mémoire et CPU.
+      et de non-régression
+    - Algorithmes complexes avec de nombreuses optimisations mémoire et CPU
   - company: Aérospatiale-Matra, Suresnes
     presentation: Centre commun de recherche.
     role: Développeur
@@ -99,8 +99,8 @@ experiences:
     details: Développement d'une application basée sur le multicast IGMP permettant
       à plusieurs personnes de travailler simultanément sur une maquette numérique.
     highlights:
-    - Projet très innovant, plusieurs articles de recherche publiés sur le sujet.
-    - Développement C++ multi-plateforme.
+    - Projet très innovant, plusieurs articles de recherche publiés sur le sujet
+    - Développement C++ multi-plateforme
   - company: Dorotech, Soleri-Cigel, Impulsions, Paris
     presentation: Sociétés de services informatiques
     role: Développeur
@@ -108,16 +108,16 @@ experiences:
     details: Développeur chez de nombreux clients grands comptes dans un environnement
       UNIX / C / Oracle.
     highlights:
-    - 'BNP Paris: Adaptation et mise en place d''un progiciel d''archivage de relevés de comptes sur disque optique.'
-    - 'CIC Paris: trésorerie et gestion des flux infra-journaliers.'
-    - 'Alcatel Réseaux d''Entreprises (ARE): étude du trafic téléphonique.'
-    - 'Scac Delmas Vieljeux (Groupe Bolloré): optimisation du routage des commandes.'
-    - 'Office National Interprofessionnel du Lait (ONILAIT): gestion des quotas laitiers.'
-    - 'Euro-disney: Portage et optimisation d''applications info-centre.'
-    - 'IBM: développement d''une application télématique.'
-    - 'Toshiba: administration d''une base clientèle.'
-    - 'Crédit-Lyonnais: application audiotel.'
-    - 'Groupement Agricole Essonnois (GAE): développement d''un logiciel de gestion des stocks et des commandes.'
+    - 'BNP Paris: Adaptation et mise en place d''un progiciel d''archivage de relevés de comptes sur disque optique'
+    - 'CIC Paris: trésorerie et gestion des flux infra-journaliers'
+    - 'Alcatel Réseaux d''Entreprises (ARE): étude du trafic téléphonique'
+    - 'Scac Delmas Vieljeux (Groupe Bolloré): optimisation du routage des commandes'
+    - 'Office National Interprofessionnel du Lait (ONILAIT): gestion des quotas laitiers'
+    - 'Euro-disney: Portage et optimisation d''applications info-centre'
+    - 'IBM: développement d''une application télématique'
+    - 'Toshiba: administration d''une base clientèle'
+    - 'Crédit-Lyonnais: application audiotel'
+    - 'Groupement Agricole Essonnois (GAE): développement d''un logiciel de gestion des stocks et des commandes'
 education:
   title: Formation
   info:
@@ -151,7 +151,7 @@ skills:
   - name: Bash
     level: 85%
   - name: C++
-    level: 35%
+    level: 60%
   - name: Linux
     level: 90%
   - name: Nix/NixOS

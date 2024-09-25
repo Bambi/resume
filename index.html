@@ -4,7 +4,8 @@ cvdata: site.data.data
 ---
 
 
-{% include career-profile.html %}
+{% assign cvdata = site.data.data %}
+{% include career-profile.html global_var: cvdata %}
 
 {% include experiences.html %}
 

@@ -3,3 +3,5 @@
 *.log
 result
 out
+_site
+.sass-cache

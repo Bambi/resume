@@ -27,6 +27,8 @@ sidebar:
     - item: Sailing
       icon: anchor
   pdf: https://raw.githubusercontent.com/Bambi/resume/refs/heads/main/assets/cv/cv.pdf
+  altcvlink: /
+  altcvlang: version française
 career-profile:
   title: Network/Embedded Linux Developer
   summary: C/Linux developer with over 20 years of experience in the networking field,

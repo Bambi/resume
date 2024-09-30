@@ -112,7 +112,13 @@
 
     {% if sidebar.pdf %}
     <li class="pdf"><i class="fas fa-file-pdf"></i>
-      <a href="{{ sidebar.pdf }}" target="_blank">Resume PDF</a>
+      <a href="{{ sidebar.pdf }}" target="_blank">PDF</a>
+    </li>
+    {% endif %}
+
+    {% if sidebar.altcvlink and sidebar.altcvlang %}
+    <li class="pdf"><i class="fas fa-globe-americas"></i>
+      <a href="{{ site.url }}{{ sidebar.altcvlink }}" target="_blank">{{ sidebar.altcvlang }}</a>
     </li>
     {% endif %}
 

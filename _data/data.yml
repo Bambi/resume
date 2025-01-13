@@ -45,11 +45,11 @@ experiences:
     details: Développement du logiciel interne d'une sonde SD-WAN dans une équipe
       internationale Europe/US/Inde.
     highlights:
-    - Portage des modules et pilotes noyaux de 4.9 vers 5.10
-    - Interfaçage de la sonde et des commutateurs ExtremeNetworks avec LLDP
+    - Maintenance BSP (HAL, upgrade, pilotes, environnement de build, outils d'analyse)
+    - Débogage et analyse des performances noyau
     - Étude transition vers une architecture DPDK/VPP
+    - Résolution des tickets et développement des fonctions SD-WAN (VPN, interface LLDP)
     - Développement avec des méthodes agiles pour des sorties de version régulières
-    - Résolution de problèmes et amélioration des fonctionnalités
   - company: Infovista, Massy
     presentation: Entreprise spécialisée dans les solutions logicielles permettant
       d'optimiser les performances des réseaux informatiques des entreprises.
@@ -69,7 +69,7 @@ experiences:
       réseaux WAN. Mise en œuvre de technologies de compression, d'optimisation protocolaire
       et de qualité de service.
     highlights:
-    - Portage vers un boitier basé sur une architecture MIPS/U-boot
+    - Portage vers un de nouvelles architectures (MIPS/ARM/U-boot)
     - Portage d'une distribution maison vers ELINOS (build, boot)
     - Intégration de différents éléments de la distribution tels que PAM/DHCP/SYSLOG
   - company: Motorola, Saint-Aubin
@@ -91,7 +91,7 @@ experiences:
       de la compilation incrémentale
     - Support du greffon Cisco IOS (filtrage, NAT, VPN IPsec, clusters HSRP) et d'un
       SDK destiné aux partenaires
-    - Développement multiplateforme (Linux, Windows, Solaris) avec tests unitaires
+    - Développement C++ multiplateforme (Linux, Windows, Solaris) avec tests unitaires
       et de non-régression
     - Algorithmes complexes avec de nombreuses optimisations mémoire et CPU
   - company: Aérospatiale-Matra, Suresnes
@@ -139,12 +139,16 @@ skills:
     icon: code
   - skills: Markdown
     icon: pen
-  - skills: Linux, NixOS
+  - skills: Noyau Linux (Ftrace, LTTng, oprofile, perf)
+    icon: linux
+  - skills: Cmocka, valgrind
     icon: cogs
-  - skills: Cmocka
-    icon: laptop
   - skills: Git, Svn, Jira
     icon: toolbox
+  - skills: TCP/IP, IPv4, IPv6, QoS
+    icon: sitemap
+  - skills: IPsec, VPN, pare-feux
+    icon: cloud
   toolset:
   - name: C
     level: 98%
@@ -154,10 +158,14 @@ skills:
     level: 85%
   - name: C++
     level: 60%
-  - name: Linux
+  - name: Linux (Noyau et espace utilisateur)
     level: 90%
   - name: Nix/NixOS
     level: 60%
+  - name: Réseau TCP/IP (IPv4/IPv6)
+    level: 80%
+  - name: Sécurité système et réseau (IPsec, VPN)
+    level: 80%
   - name: Git
     level: 80%
   - name: Jira

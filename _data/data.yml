@@ -31,9 +31,15 @@ sidebar:
   altcvlang: english version
 career-profile:
   title: Développeur réseaux/Linux embarqué
-  summary: Développeur C/Linux avec plus de 20 ans d'expérience dans le domaine des
-    réseaux, passionné par le développement et constamment motivé pour apprendre de
-    nouvelles technologies.
+  summary: Passionné d'informatique, j'ai maintenant acquis une expertise technique
+    dans le développement système Linux ainsi que dans les réseaux de
+    télécommunication IP.
+
+    Curieux, rigoureux, autonome mais appréciant aussi travailler au sein d'une
+    équipe à taille humaine, je suis capable d'intervenir sur tout type de projet
+    stimulant et ambitieux.
+
+    Je suis disponible sur Paris et RP pour des missions de développement Linux / Embarqué.
 experiences:
   title: Expériences professionnelles
   info:
@@ -59,6 +65,7 @@ experiences:
     highlights:
     - Synchronisation des sondes avec Chrony
     - Intégration d'un environnement Python 3.7
+    - Développement de la fonctionnalité gateway IPsec basée sur Strongswan.
     - Développement de l'architecture SD-WAN autour d'un orchestrateur central
   - company: Ipanema, Fontenay-aux-Roses
     presentation: Entreprise spécialisée dans les solutions de gestion de la performance
@@ -69,8 +76,8 @@ experiences:
       réseaux WAN. Mise en œuvre de technologies de compression, d'optimisation protocolaire
       et de qualité de service.
     highlights:
-    - Portage vers un de nouvelles architectures (MIPS/ARM/U-boot)
-    - Portage d'une distribution maison vers ELINOS (build, boot)
+    - Portage vers de nouvelles architectures (MIPS/ARM/U-boot)
+    - Migration d'une distribution maison vers ELINOS (build, boot)
     - Intégration de différents éléments de la distribution tels que PAM/DHCP/SYSLOG
   - company: Motorola, Saint-Aubin
     role: Développeur
@@ -82,7 +89,7 @@ experiences:
     presentation: Editeur de logiciels de sécurité réseaux permettant la conception
       et le déploiement d'architectures complexes.
     role: Ingénieur développement
-    time: 2001 - 2005
+    time: 2002 - 2005
     details: Développement d'un compilateur qui génère des règles de filtrage et de
       NAT pour différents pare-feux à partir d'un langage décrivant la politique de
       sécurité.
@@ -147,7 +154,7 @@ skills:
     icon: toolbox
   - skills: TCP/IP, IPv4, IPv6, QoS
     icon: sitemap
-  - skills: IPsec, VPN, pare-feux
+  - skills: IPsec, VPN, TLS, pare-feux
     icon: cloud
   toolset:
   - name: C

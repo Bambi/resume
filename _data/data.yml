@@ -31,7 +31,8 @@ sidebar:
   altcvlang: english version
 career-profile:
   title: Développeur réseaux/Linux embarqué
-  summary: Passionné d'informatique, j'ai maintenant acquis une expertise technique
+  summary: |-
+    Passionné d'informatique, j'ai maintenant acquis une expertise technique
     dans le développement système Linux ainsi que dans les réseaux de
     télécommunication IP.
 
@@ -39,7 +40,13 @@ career-profile:
     équipe à taille humaine, je suis capable d'intervenir sur tout type de projet
     stimulant et ambitieux.
 
-    Je suis disponible sur Paris et RP pour des missions de développement Linux / Embarqué.
+    Je suis disponible sur Paris et RP pour des missions incluant:
+
+    - du développement logiciel C/C++/Python méthodologique (agile/CI/CD/tests)
+
+    - des réseaux télécom sécurisés
+
+    - des OS Linux (noyaux/embarqué) et Windows
 experiences:
   title: Expériences professionnelles
   info:
@@ -115,7 +122,7 @@ experiences:
     role: Développeur
     time: 1991 - 1998
     details: Développeur chez de nombreux clients grands comptes dans un environnement
-      UNIX / C / Oracle.
+      UNIX / C / Oracle SQL.
     highlights:
     - 'BNP Paris: Adaptation et mise en place d''un progiciel d''archivage de relevés de comptes sur disque optique'
     - 'CIC Paris: trésorerie et gestion des flux infra-journaliers'
@@ -142,7 +149,7 @@ education:
 skills:
   title: Compétences
   sets:
-  - skills: C, C++, Python, Bash, Nix
+  - skills: C, C++, Python, Bash, SQL, Nix
     icon: code
   - skills: Markdown
     icon: pen

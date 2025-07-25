@@ -32,21 +32,15 @@ sidebar:
 career-profile:
   title: Développeur réseaux/Linux embarqué
   summary: |-
-    Passionné d'informatique, j'ai maintenant acquis une expertise technique
-    dans le développement système Linux ainsi que dans les réseaux de
-    télécommunication IP.
+    Ingénieur informatique senior, j’ai plus de 20 ans d’expérience dans le développement de solutions critiques mêlant systèmes embarqués,
+    sécurité réseau, performance applicative et cybersécurité.
 
-    Curieux, rigoureux, autonome mais appréciant aussi travailler au sein d'une
-    équipe à taille humaine, je suis capable d'intervenir sur tout type de projet
-    stimulant et ambitieux.
+    J’ai contribué à des projets sensibles dans les télécoms (SD-WAN), l'optimisation réseau et la sécurité IP,
+    avec une forte exigence de robustesse, de documentation technique et de maîtrise du code bas niveau.
 
-    Je suis disponible sur Paris et RP pour des missions incluant:
-
-    - du développement logiciel C/C++/Python méthodologique (agile/CI/CD/tests)
-
-    - des réseaux télécom sécurisés
-
-    - des OS Linux (noyaux/embarqué) et Windows
+    Je suis opérationnel en développement C/C++/Python/Linux, habitué aux environnements multi-intervenants
+    et orientés production continue avec une capacité à produire des livrables clairs et structurés
+    (rapports, benchmarks, notes d’architecture).
 experiences:
   title: Expériences professionnelles
   info:
@@ -55,67 +49,62 @@ experiences:
       et de communication.
     role: Ingénieur développement
     time: 09/2021 - 06/2024
-    details: Développement du logiciel interne d'une sonde SD-WAN dans une équipe
-      internationale Europe/US/Inde.
+    details: Développement du logiciel interne d'une sonde SD-WAN dans un contexte
+      international Europe/US/Inde.
     highlights:
-    - Maintenance BSP (HAL, upgrade, pilotes, environnement de build, outils d'analyse)
-    - Débogage et analyse des performances noyau
-    - Étude transition vers une architecture DPDK/VPP
+    - Développement et maintenance du BSP Linux embarqué (HAL, pilotes, environnement de build)
+    - Optimisation et analyse des performances noyau
+    - Participation à une étude de refonte vers DPDK/VPP
     - Résolution des tickets et développement des fonctions SD-WAN (VPN, interface LLDP)
-    - Développement avec des méthodes agiles pour des sorties de version régulières
+    - Développement avec des méthodes agiles et contribution à la documentation technique
+    - Développement sécurisé dans un environnement multi-threads avec contraintes de robustesse
   - company: Infovista, Massy
     presentation: Entreprise spécialisée dans les solutions logicielles permettant
       d'optimiser les performances des réseaux informatiques des entreprises.
     role: Ingénieur développement
     time: 07/2015 - 09/2021
-    details: Sonde SD-WAN (gestion et optimisation d'un réseau virtuel privé).
+    details: Développement d’une sonde SD-WAN sécurisée pour l’optimisation de réseaux d’entreprise.
     highlights:
-    - Synchronisation des sondes avec Chrony
-    - Intégration d'un environnement Python 3.7
-    - Développement de la fonctionnalité gateway IPsec basée sur Strongswan.
-    - Développement de l'architecture SD-WAN autour d'un orchestrateur central
+    - Mise en place de synchronisation réseau (Chrony) pour la cohérence inter-sondes
+    - Intégration d'un environnement Python 3.7 pour outils d'analyse
+    - Développement de la passerelle IPsec basée sur Strongswan
+    - Participation à l’architecture SD-WAN avec orchestrateur centralisé
+    - Mise en œuvre de bonnes pratiques de sécurité dans les modules critiques
   - company: Ipanema, Fontenay-aux-Roses
     presentation: Entreprise spécialisée dans les solutions de gestion de la performance
       des réseaux informatiques.
     role: Ingénieur développement
     time: 09/2007 - 07/2015
-    details: Sonde WANOP pour la visibilité et l'optimisation des communications
-      réseaux WAN. Mise en œuvre de technologies de compression, d'optimisation protocolaire
-      et de qualité de service.
+    details: Sonde WANOP pour visibilité et optimisation WAN – réseau critique haute performance.
     highlights:
-    - Portage vers de nouvelles architectures (MIPS/ARM/U-boot)
-    - Migration d'une distribution maison vers ELINOS (build, boot)
-    - Intégration de différents éléments de la distribution tels que PAM/DHCP/SYSLOG
+    - Portage du firmware C/Linux sur architectures MIPS/ARM
+    - "Migration vers ELINOS (Linux industriel): boot, build, drivers"
+    - "Intégration de composants Open sources: PAM, DHCP, SYSLOG, etc"
   - company: Motorola, Saint-Aubin
     role: Développeur
     time: 12/2006 - 06/2007
-    details: Développement d'un module Linux de filtrage pour une pile IPv4-IPv6 propriétaire.
+    details: Développement d'un module de filtrage réseau (IPv4/IPv6)
     highlights:
-    - Développement noyaux Linux UML 2.6.12 et 2.6.18
+    - Développement sur noyaux Linux UML 2.6.12 / 2.6.18
   - company: Solsoft (éditeur logiciels), Levallois-Perret
     presentation: Editeur de logiciels de sécurité réseaux permettant la conception
       et le déploiement d'architectures complexes.
     role: Ingénieur développement
     time: 2002 - 2005
-    details: Développement d'un compilateur qui génère des règles de filtrage et de
-      NAT pour différents pare-feux à partir d'un langage décrivant la politique de
-      sécurité.
+    details: Compilateur de règles de sécurité pour différents pare-feux (Cisco, Fortinet ...).
     highlights:
-    - Intégration du support des VPN, de la translation d'adresses (NAT), des clusters,
-      de la compilation incrémentale
-    - Support du greffon Cisco IOS (filtrage, NAT, VPN IPsec, clusters HSRP) et d'un
-      SDK destiné aux partenaires
-    - Développement C++ multiplateforme (Linux, Windows, Solaris) avec tests unitaires
-      et de non-régression
-    - Algorithmes complexes avec de nombreuses optimisations mémoire et CPU
+    - Intégration du support VPN, NAT, clusters (HSRP), compilation incrémentale
+    - Développement du greffon Cisco IOS (NAT, IPsec, filtrage)
+    - Code C++ multiplateforme (Linux, Windows, Solaris) avec tests unitaires
+      et non-régression
+    - Optimisation mémoire/CPU dans des modules critiques de compilation
   - company: Aérospatiale-Matra, Suresnes
     presentation: Centre commun de recherche.
     role: Développeur
     time: 1998 - 2002
-    details: Développement d'une application basée sur le multicast IGMP permettant
-      à plusieurs personnes de travailler simultanément sur une maquette numérique.
+    details: Développement d'une application de maquette numérique collaborative multicast (IGMP).
     highlights:
-    - Projet très innovant, plusieurs articles de recherche publiés sur le sujet
+    - Plusieurs articles de recherche publiés autour de ce projet innovant
     - Développement C++ multi-plateforme
   - company: Dorotech, Soleri-Cigel, Impulsions, Paris
     presentation: Sociétés de services informatiques
@@ -148,39 +137,28 @@ education:
     time: '1989'
 skills:
   title: Compétences
-  sets:
-  - skills: C, C++, Python, Bash, SQL, Nix
-    icon: code
-  - skills: Markdown
-    icon: pen
-  - skills: Noyau Linux (Ftrace, LTTng, oprofile, perf)
-    icon: linux
-  - skills: Cmocka, valgrind
-    icon: cogs
-  - skills: Git, Svn, Jira
-    icon: toolbox
-  - skills: TCP/IP, IPv4, IPv6, QoS
-    icon: sitemap
-  - skills: IPsec, VPN, TLS, pare-feux
-    icon: cloud
   toolset:
-  - name: C
-    level: 98%
-  - name: Python
-    level: 70%
-  - name: Bash
-    level: 85%
-  - name: C++
-    level: 60%
-  - name: Linux (Noyau et espace utilisateur)
-    level: 90%
-  - name: Nix/NixOS
-    level: 60%
-  - name: Réseau TCP/IP (IPv4/IPv6)
-    level: 80%
-  - name: Sécurité système et réseau (IPsec, VPN)
-    level: 80%
-  - name: Git
-    level: 80%
-  - name: Jira
-    level: 40%
+  - name: Langages
+    icon: code
+    description: C (expert), C++, Python, Bash, SQL
+  - name: Système d'exploitation
+    icon: linux
+    description: Linux (embarqué, noyau, performances), Nix/NixOS, Windows
+  - name: Réseaux
+    icon: sitemap
+    description: TCP/IP (IPv4/IPv6), Routage, Ethernet, QoS
+  - name: Sécurité
+    icon: cloud
+    description: NAT, VPN IPsec, pare-feu, durcissement applicatif
+  - name: Méthodologies
+    icon: pen
+    description: Agile, CI/CD, tests automatisés, revue de code, Git, Jira
+  - name: Optimisation
+    icon: cogs
+    description: multithreading, optimisation mémoire, performance système
+  - name: Build/Toolchain
+    icon: toolbox
+    description: U-Boot, GRUB, ELINOS, HAL, BSP, environnement de compilation croisée
+  - name: Architecture fonctionnelle
+    icon: archway
+    description: Conception bout-en-bout, Rédaction de dossiers techniques, Rédaction documentation

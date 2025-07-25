@@ -122,7 +122,6 @@
             \clip (0,0) circle (2cm) node[anchor=center] {\includegraphics[width=4cm]{assets/images/${sidebar.avatar}$}}; 
             \end{tikzpicture}
         \end{center}
-        \vspace{.3cm}
         %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
         % YOUR PERSONAL INFROMATION
         \phantomsection{}
@@ -133,21 +132,8 @@
             \faEnvelope{}   & \href{mailto:${sidebar.email}$}{${sidebar.email}$} \\
             \faMapMarker{}  & ${sidebar.address}$\newline ${sidebar.code}$\newline ${sidebar.city}$ \\
         \end{tabularx}
-        \vspace{.3cm} \\
-        \rule{\linewidth}{0.4pt} \\
-        %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-        % YOUR LINKS, YOU MAY ALSO ADD A PERSONAL WEBSITE OR PORTFOLIO
-        \phantomsection{}
-        \addcontentsline{toc}{section}{Links}
-        \section*{\large Liens}
-        \begin{tabular}{cl}
-        %    \faCode{}     & \href{https://example.com}{example.com}
-            \faGithub{}   & \href{${sidebar.github}$}{${sidebar.github}$} \\
-            \faLinkedin{} & \href{https://www.linkedin.com/in/${sidebar.linkedin}$/}{/${sidebar.linkedin}$} \\
-            % \faXing{}     & \href{https://www.xing.com/profile/John_Doe7373990/cv}{/John\_Doe7373990} \\
-        \end{tabular}
-        \vspace{10pt} \\
-        \rule{\linewidth}{0.4pt} \\
+        % \vspace{.3cm} \\
+        % \rule{\linewidth}{0.4pt} \\
         %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
         % YOUR SKILLS
         % Add/Remove as seen fit, Icons: https://packages.oth-regensburg.de/ctan/fonts/fontawesome5/doc/fontawesome5.pdf
@@ -155,12 +141,10 @@
         \addcontentsline{toc}{section}{Skills}
         \section*{\large \faTasks\enspace Compétences}
         \begin{tabularx}{\textwidth}{cY}
-        $%- for skill in skills.sets %$
-            \faIcon{${skill.icon}$} & ${skill.skills}$ \\
+        $%- for skill in skills.toolset %$
+            \faIcon{${skill.icon}$} & ${skill.description}$ \\
         $%- endfor %$
         \end{tabularx}
-        \vspace{1pt} \\
-        \rule{\linewidth}{0.4pt}
         %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
         % GRADESCALE (if nesseary, e.g. if you apply abroad, where scales 
         % are different. You should at least provide, what the best possible
@@ -258,6 +242,10 @@
             ${edu.time}$ & ${edu.university}$ \newline ${edu.degree}$ \\
         $%- endfor %$
         \end{tabularx}
+        \vspace{.3cm}
+        \\
+        \rule{\linewidth}{0.4pt}
+        \\
         %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
         % LANGUAGES
         \phantomsection
@@ -285,6 +273,17 @@
         \vspace{.3cm}
         \\
         \rule{\linewidth}{0.4pt}
+        %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+        % YOUR LINKS, YOU MAY ALSO ADD A PERSONAL WEBSITE OR PORTFOLIO
+        \phantomsection{}
+        \addcontentsline{toc}{section}{Links}
+        \section*{\large Liens}
+        \begin{tabular}{cl}
+        %    \faCode{}     & \href{https://example.com}{example.com}
+            \faGithub{}   & \href{${sidebar.github}$}{${sidebar.github}$} \\
+            \faLinkedin{} & \href{https://www.linkedin.com/in/${sidebar.linkedin}$/}{/${sidebar.linkedin}$} \\
+            % \faXing{}     & \href{https://www.xing.com/profile/John_Doe7373990/cv}{/John\_Doe7373990} \\
+        \end{tabular}
     \end{minipage}%
 }%
 \end{document}
